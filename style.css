@@ -153,6 +153,13 @@ body {
   transform: scale(1.05);
   box-shadow: 0 0 20px magenta;
 }
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: bold;
+}
 
 .contact a {
   color: cyan;
