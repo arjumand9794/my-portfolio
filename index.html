@@ -4,7 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Arjumand Mohiuddin | DevOps Portfolio</title>
+
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Favicon Logo -->
+  <link rel="icon" type="image/png" href="https://skillicons.dev/icons?i=aws">
 </head>
 
 <body>
@@ -12,12 +19,18 @@
   <!-- Navbar -->
   <header>
     <nav class="navbar">
-      <h2 class="logo">ARJUMAND.</h2>
+
+      <!-- Logo -->
+      <div class="logo-container">
+        <img src="https://skillicons.dev/icons?i=aws" class="logo-img" alt="logo">
+        <h2 class="logo">ARJUMAND.</h2>
+      </div>
+
       <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#skills">Tools</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#skills"><i class="fa-solid fa-toolbox"></i> Tools</a></li>
+        <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -31,92 +44,131 @@
     </p>
 
     <div class="buttons">
-      <a href="#skills" class="btn primary">Explore My Tech Stack</a>
-      <a href="#contact" class="btn secondary">Work With Me</a>
+      <a href="#skills" class="btn primary">
+        <i class="fa-solid fa-layer-group"></i> Explore My Tech Stack
+      </a>
+
+      <a href="#contact" class="btn secondary">
+        <i class="fa-solid fa-handshake"></i> Work With Me
+      </a>
     </div>
   </section>
 
   <!-- Skills Section -->
- <section id="skills" class="skills">
-  <h2>AWS & DevOps Tools I Use</h2>
-  <p>These are the core DevOps tools I use for real-world projects.</p>
+  <section id="skills" class="skills">
+    <h2><i class="fa-solid fa-toolbox"></i> AWS & DevOps Tools I Use</h2>
+    <p>These are the core DevOps tools I use for real-world projects.</p>
 
-  <div class="skill-grid">
+    <div class="skill-grid">
 
-    <a href="https://aws.amazon.com/" target="_blank" class="card">AWS</a>
-    <a href="https://www.jenkins.io/" target="_blank" class="card">Jenkins</a>
-    <a href="https://www.docker.com/" target="_blank" class="card">Docker</a>
-    <a href="https://kubernetes.io/" target="_blank" class="card">Kubernetes</a>
-    <a href="https://www.terraform.io/" target="_blank" class="card">Terraform</a>
-    <a href="https://www.ansible.com/" target="_blank" class="card">Ansible</a>
-    <a href="https://www.linux.org/" target="_blank" class="card">Linux</a>
-    <a href="https://git-scm.com/" target="_blank" class="card">Git</a>
-    <a href="https://github.com/" target="_blank" class="card">GitHub</a>
-    <a href="https://www.sonarsource.com/products/sonarqube/" target="_blank" class="card">SonarQube</a>
-    <a href="https://prometheus.io/" target="_blank" class="card">Prometheus</a>
-    <a href="https://grafana.com/" target="_blank" class="card">Grafana</a>
+      <a href="https://aws.amazon.com/" target="_blank" class="card">
+        <img src="https://skillicons.dev/icons?i=aws" class="tool-icon"> AWS
+      </a>
 
-  </div>
-</section>
+      <a href="https://www.jenkins.io/" target="_blank" class="card">
+        <img src="https://skillicons.dev/icons?i=jenkins" class="tool-icon"> Jenkins
+      </a>
 
+      <a href="https://www.docker.com/" target="_blank" class="card">
+        <img src="https://skillicons.dev/icons?i=docker" class="tool-icon"> Docker
+      </a>
+
+      <a href="https://kubernetes.io/" target="_blank" class="card">
+        <img src="https://skillicons.dev/icons?i=kubernetes" class="tool-icon"> Kubernetes
+      </a>
+
+      <a href="https://www.terraform.io/" target="_blank" class="card">
+        <img src="https://skillicons.dev/icons?i=terraform" class="tool-icon"> Terraform
+      </a>
+
+      <a href="https://www.ansible.com/" target="_blank" class="card">
+        <img src="https://skillicons.dev/icons?i=ansible" class="tool-icon"> Ansible
+      </a>
+
+      <a href="https://www.linux.org/" target="_blank" class="card">
+        <img src="https://skillicons.dev/icons?i=linux" class="tool-icon"> Linux
+      </a>
+
+      <a href="https://git-scm.com/" target="_blank" class="card">
+        <img src="https://skillicons.dev/icons?i=git" class="tool-icon"> Git
+      </a>
+
+      <a href="https://github.com/" target="_blank" class="card">
+        <img src="https://skillicons.dev/icons?i=github" class="tool-icon"> GitHub
+      </a>
+
+      <a href="https://www.sonarsource.com/products/sonarqube/" target="_blank" class="card">
+        <img src="https://skillicons.dev/icons?i=java" class="tool-icon"> SonarQube
+      </a>
+
+      <a href="https://prometheus.io/" target="_blank" class="card">
+        <img src="https://skillicons.dev/icons?i=prometheus" class="tool-icon"> Prometheus
+      </a>
+
+      <a href="https://grafana.com/" target="_blank" class="card">
+        <img src="https://skillicons.dev/icons?i=grafana" class="tool-icon"> Grafana
+      </a>
+
+    </div>
+  </section>
 
   <!-- Projects Section -->
- <section id="projects" class="projects">
-  <h2>Featured DevOps Projects</h2>
+  <section id="projects" class="projects">
+    <h2><i class="fa-solid fa-diagram-project"></i> Featured DevOps Projects</h2>
 
-  <div class="project-grid">
+    <div class="project-grid">
 
-    <a href="https://github.com/arjumand9794" target="_blank" class="project-card">
-      <h3>Jenkins CI/CD Pipeline</h3>
-      <p>Automated CI/CD pipeline for building and deploying applications.</p>
-    </a>
+      <a href="https://github.com/arjumand9794" target="_blank" class="project-card">
+        <h3><i class="fa-solid fa-gears"></i> Jenkins CI/CD Pipeline</h3>
+        <p>Automated CI/CD pipeline for building and deploying applications.</p>
+      </a>
 
-    <a href="https://github.com/arjumand9794" target="_blank" class="project-card">
-      <h3>Docker Multi-stage Build</h3>
-      <p>Optimized Docker image build process for Java applications.</p>
-    </a>
+      <a href="https://github.com/arjumand9794" target="_blank" class="project-card">
+        <h3><i class="fa-brands fa-docker"></i> Docker Multi-stage Build</h3>
+        <p>Optimized Docker image build process for Java applications.</p>
+      </a>
 
-    <a href="https://github.com/arjumand9794" target="_blank" class="project-card">
-      <h3>Terraform AWS EC2 Deployment</h3>
-      <p>Provisioned AWS EC2 infrastructure using Terraform IaC.</p>
-    </a>
+      <a href="https://github.com/arjumand9794" target="_blank" class="project-card">
+        <h3><i class="fa-solid fa-cloud"></i> Terraform AWS EC2 Deployment</h3>
+        <p>Provisioned AWS EC2 infrastructure using Terraform IaC.</p>
+      </a>
 
-    <a href="https://github.com/arjumand9794" target="_blank" class="project-card">
-      <h3>AWS ECR Push Pipeline</h3>
-      <p>Built Docker images and pushed them to AWS Elastic Container Registry.</p>
-    </a>
+      <a href="https://github.com/arjumand9794" target="_blank" class="project-card">
+        <h3><i class="fa-solid fa-box"></i> AWS ECR Push Pipeline</h3>
+        <p>Built Docker images and pushed them to AWS Elastic Container Registry.</p>
+      </a>
 
-    <a href="https://github.com/arjumand9794" target="_blank" class="project-card">
-      <h3>SonarQube Integration</h3>
-      <p>Integrated SonarQube into Jenkins pipeline for code quality analysis.</p>
-    </a>
+      <a href="https://github.com/arjumand9794" target="_blank" class="project-card">
+        <h3><i class="fa-solid fa-shield-halved"></i> SonarQube Integration</h3>
+        <p>Integrated SonarQube into Jenkins pipeline for code quality analysis.</p>
+      </a>
 
-    <a href="https://github.com/arjumand9794" target="_blank" class="project-card">
-      <h3>Docker Compose Deployment</h3>
-      <p>Deployed multi-container applications using Docker Compose.</p>
-    </a>
+      <a href="https://github.com/arjumand9794" target="_blank" class="project-card">
+        <h3><i class="fa-solid fa-network-wired"></i> Docker Compose Deployment</h3>
+        <p>Deployed multi-container applications using Docker Compose.</p>
+      </a>
 
-  </div>
-</section>
+    </div>
+  </section>
 
   <!-- Contact -->
   <section id="contact" class="contact">
-    <h2>Let’s Build Something Reliable</h2>
+    <h2><i class="fa-solid fa-envelope"></i> Let’s Build Something Reliable</h2>
 
     <p>
-      📧 Email:
+      <i class="fa-solid fa-at"></i> Email:
       <a href="mailto:arjumand9497@gmail.com">arjumand9497@gmail.com</a>
     </p>
 
     <p>
-      💼 LinkedIn:
+      <i class="fa-brands fa-linkedin"></i> LinkedIn:
       <a href="https://linkedin.com/in/arjumand-mohiuddin-042478b6" target="_blank">
         View Profile
       </a>
     </p>
 
     <p>
-      🐙 GitHub:
+      <i class="fa-brands fa-github"></i> GitHub:
       <a href="https://github.com/arjumand9794" target="_blank">
         arjumand9794
       </a>
